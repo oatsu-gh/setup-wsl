@@ -8,7 +8,6 @@ echo set bell-style none >> ~/.bashrc
 echo alias python=\'python3\' >> ~/.bashrc
 echo alias pip=\'pip3\' >> ~/.bashrc
 echo alias Hachune=\'Y(๑°口°๑)\'
-echo 'export PATH=${HOME}/.local/bin' >> ~/.bashrc
 
 # 日本語化
 sudo apt -y install language-pack-ja
