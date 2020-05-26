@@ -9,6 +9,7 @@ sudo apt install python3-pip
 # pip のアプデ
 python3 -m pip install --upgrade pip
 # pip-review のインストール
-pip3 install pip-review
+# sudoにすべきかわからんので保留
+# pip3 install pip-review
 
 exit
