@@ -1,4 +1,6 @@
 # setup_wsl_1.sh の続きから
+cd ~
+
 # 日本語化の続き
 sudo dpkg-reconfigure tzdata -y
 sudo apt install manpages-ja manpages-ja-dev -y

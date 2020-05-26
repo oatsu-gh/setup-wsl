@@ -1,4 +1,5 @@
 # Ubuntu の更新
+cd ~
 sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove
 
 # .bashrc に書き込み
