@@ -1,7 +1,6 @@
 # Ubuntu の更新
 cd ~
 sudo sed -i.bak -e "s%http://archive.ubuntu.com/ubuntu/%http://ftp.iij.ad.jp/pub/linux/ubuntu/archive/%g" /etc/apt/sources.list
-sudo apt install python-is-python3
 sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove
 
 # .bashrc に書き込み
